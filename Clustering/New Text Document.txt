@@ -1,0 +1,2 @@
+conda env create --name test2_clone --file test2_env.yml
+conda env update --name base --file test2_env.yml --prune
