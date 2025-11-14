@@ -1,0 +1,18 @@
+conn = pyodbc.connect(
+    'DRIVER={SQL Server};'
+    'SERVER=10WKS-PISHVA;'
+    'DATABASE=PEGAH;'
+    'UID=rezapishva;'
+    'PWD=5rdx@4rfv1355'
+)
+
+conn = pyodbc.connect(
+    'DRIVER={SQL Server};'
+    'SERVER=MKZ-DSAS\\DSAS;'
+    'DATABASE=DSAS;'
+    'UID=datadriven;'
+    'PWD=5Rdx@4Rfv1355'
+)
+
+
+
